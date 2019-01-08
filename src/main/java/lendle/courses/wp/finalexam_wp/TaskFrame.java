@@ -22,6 +22,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SpringLayout;
+import javax.swing.WindowConstants;
 import javax.swing.event.InternalFrameAdapter;
 import javax.swing.event.InternalFrameEvent;
 
@@ -43,6 +44,9 @@ public class TaskFrame extends JInternalFrame {
         JTextField jTextField=new JTextField();
         this.add(jTextArea,"North");
         this.add(jTextField,"Center");
+
+        this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        this.setSize(500, 500);
         BorderLayout layout=new BorderLayout();
         this.setLayout(layout);
         ////////////////////////////
