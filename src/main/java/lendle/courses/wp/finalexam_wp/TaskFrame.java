@@ -46,7 +46,7 @@ public class TaskFrame extends JInternalFrame {
         this.add(jTextField,"Center");
 
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-        this.setSize(500, 500);
+        this.setSize(500, 300);
         BorderLayout layout=new BorderLayout();
         this.setLayout(layout);
         ////////////////////////////
