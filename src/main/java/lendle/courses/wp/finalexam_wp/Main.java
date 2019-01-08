@@ -123,7 +123,7 @@ public class Main extends javax.swing.JFrame {
         //加到 jDesktopPane1 (20%)
         TaskFrame taskFrame =new TaskFrame();
         taskFrame.setContentPane(jDesktopPane1);
-       
+        
         ///////////////////////////////////////
     }//GEN-LAST:event_buttonNewActionPerformed
 
@@ -142,10 +142,10 @@ public class Main extends javax.swing.JFrame {
             //Q3: 建立 TaskFrame（等同於 JInternalFrame）
             //設定 noteTitle, noteContent
             //加到 jDesktopPane1 (20%)
-            TaskFrame taskFrame =new TaskFrame();
-            taskFrame.setNoteContent(content);
-            taskFrame.setNoteTitle(title);
-            taskFrame.setContentPane(jDesktopPane1);
+            TaskFrame taskFrame1 =new TaskFrame();
+            taskFrame1.setNoteContent(content);
+            taskFrame1.setNoteTitle(title);
+            taskFrame1.setContentPane(jDesktopPane1);
  
             //////////////////////////////////////////
         }
